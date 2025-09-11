@@ -1,8 +1,8 @@
 ModeloBase,Acurácia Teste,Melhores Parâmetros
-DecisionTree,0.6003638568829593,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
-KNN,0.6124924196482717,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
+DecisionTree,0.5997574287446937,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
+KNN,0.6143117040630686,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
 LogisticRegression,0.6513038204972711,"{'C': 1.0, 'max_iter': 500, 'solver': 'lbfgs'}"
-NaiveBayes,0.5585203153426319,N/A
-NeuralNetwork,0.6494845360824743,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (100,)}"
-RandomForest,0.6434202546998181,"{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 300}"
+NaiveBayes,0.5427531837477259,N/A
+NeuralNetwork,0.6506973923590055,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50,)}"
+RandomForest,0.6379624014554275,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 300}"
 SVM,0.6428138265615525,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}"

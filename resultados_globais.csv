@@ -1,141 +1,71 @@
 Modelo,Acurácia Teste,Tempo Treinamento (s),Melhores Parâmetros
-LogisticRegression | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.6531231049120679,7.652923107147217,N/A
-RandomForest | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.6143117040630686,4.0350751876831055,N/A
-SVM | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.6422073984232869,17.101359128952026,N/A
-KNN | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.5918738629472408,0.006812095642089844,N/A
-DecisionTree | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.5894481503941783,0.5830807685852051,N/A
-NeuralNetwork | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.6337174044875682,22.00843644142151,N/A
-NaiveBayes | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.3389933292904791,0.05835866928100586,N/A
-LogisticRegression | Balanceamento: smote | PCA: Não | Parametros: default,0.6531231049120679,7.346565008163452,N/A
-RandomForest | Balanceamento: smote | PCA: Não | Parametros: default,0.6070345664038811,3.984994411468506,N/A
-SVM | Balanceamento: smote | PCA: Não | Parametros: default,0.6422073984232869,16.65865182876587,N/A
-KNN | Balanceamento: smote | PCA: Não | Parametros: default,0.5918738629472408,0.005467414855957031,N/A
-DecisionTree | Balanceamento: smote | PCA: Não | Parametros: default,0.585203153426319,0.6224262714385986,N/A
-NeuralNetwork | Balanceamento: smote | PCA: Não | Parametros: default,0.632504548211037,19.293952226638794,N/A
-NaiveBayes | Balanceamento: smote | PCA: Não | Parametros: default,0.3389933292904791,0.058762550354003906,N/A
-LogisticRegression | Balanceamento: tomek | PCA: Não | Parametros: default,0.6531231049120679,7.830204248428345,N/A
-RandomForest | Balanceamento: tomek | PCA: Não | Parametros: default,0.6052152819890843,3.8499677181243896,N/A
-SVM | Balanceamento: tomek | PCA: Não | Parametros: default,0.6422073984232869,15.904197931289673,N/A
-KNN | Balanceamento: tomek | PCA: Não | Parametros: default,0.5918738629472408,0.0053899288177490234,N/A
-DecisionTree | Balanceamento: tomek | PCA: Não | Parametros: default,0.585203153426319,0.5145382881164551,N/A
-NeuralNetwork | Balanceamento: tomek | PCA: Não | Parametros: default,0.6270466949666464,19.371344327926636,N/A
-NaiveBayes | Balanceamento: tomek | PCA: Não | Parametros: default,0.3389933292904791,0.05910682678222656,N/A
-LogisticRegression | Balanceamento: smote | PCA: Sim | Parametros: default,0.6288659793814433,5.104598760604858,N/A
-RandomForest | Balanceamento: smote | PCA: Sim | Parametros: default,0.6258338386901152,5.956178665161133,N/A
-SVM | Balanceamento: smote | PCA: Sim | Parametros: default,0.6276531231049121,3.153853416442871,N/A
-KNN | Balanceamento: smote | PCA: Sim | Parametros: default,0.5906610066707095,0.004494667053222656,N/A
-DecisionTree | Balanceamento: smote | PCA: Sim | Parametros: default,0.5439660400242571,0.9498710632324219,N/A
-NeuralNetwork | Balanceamento: smote | PCA: Sim | Parametros: default,0.6343238326258338,4.070950269699097,N/A
-NaiveBayes | Balanceamento: smote | PCA: Sim | Parametros: default,0.5488174651303821,0.01190948486328125,N/A
-LogisticRegression | Balanceamento: tomek | PCA: Sim | Parametros: default,0.6282595512431777,5.123907089233398,N/A
-RandomForest | Balanceamento: tomek | PCA: Sim | Parametros: default,0.6191631291691935,6.004857063293457,N/A
-SVM | Balanceamento: tomek | PCA: Sim | Parametros: default,0.6288659793814433,3.3547959327697754,N/A
-KNN | Balanceamento: tomek | PCA: Sim | Parametros: default,0.5876288659793815,0.005249977111816406,N/A
-DecisionTree | Balanceamento: tomek | PCA: Sim | Parametros: default,0.530018192844148,0.9238438606262207,N/A
-NeuralNetwork | Balanceamento: tomek | PCA: Sim | Parametros: default,0.6312916919345057,4.437034368515015,N/A
-NaiveBayes | Balanceamento: tomek | PCA: Sim | Parametros: default,0.5421467556094602,0.010114192962646484,N/A
-LogisticRegression | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.6513038204972711,40.97734713554382,"{'C': 1.0, 'max_iter': 500, 'solver': 'lbfgs'}"
-RandomForest | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.6282595512431777,210.33335614204407,"{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}"
-SVM | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.6428138265615525,430.3141665458679,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}"
-KNN | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.5979381443298969,23.18334126472473,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
-DecisionTree | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.6003638568829593,7.399889230728149,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
-NeuralNetwork | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.6409945421467557,357.5354526042938,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (50,)}"
-NaiveBayes | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.3389933292904791,0.05645155906677246,N/A
-LogisticRegression | Balanceamento: smote | PCA: Não | Parametros: grid,0.6513038204972711,38.16137385368347,"{'C': 1.0, 'max_iter': 500, 'solver': 'lbfgs'}"
-RandomForest | Balanceamento: smote | PCA: Não | Parametros: grid,0.6191631291691935,206.0443434715271,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}"
-SVM | Balanceamento: smote | PCA: Não | Parametros: grid,0.6428138265615525,425.10183596611023,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}"
-KNN | Balanceamento: smote | PCA: Não | Parametros: grid,0.5979381443298969,23.27275562286377,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
-DecisionTree | Balanceamento: smote | PCA: Não | Parametros: grid,0.5991510006064281,7.501483917236328,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
-NeuralNetwork | Balanceamento: smote | PCA: Não | Parametros: grid,0.6470588235294118,351.6253230571747,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50,)}"
-NaiveBayes | Balanceamento: smote | PCA: Não | Parametros: grid,0.3389933292904791,0.06451249122619629,N/A
-LogisticRegression | Balanceamento: tomek | PCA: Não | Parametros: grid,0.6513038204972711,37.644660234451294,"{'C': 1.0, 'max_iter': 500, 'solver': 'lbfgs'}"
-RandomForest | Balanceamento: tomek | PCA: Não | Parametros: grid,0.6228016979987872,205.0427761077881,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}"
-SVM | Balanceamento: tomek | PCA: Não | Parametros: grid,0.6428138265615525,429.2557199001312,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}"
-KNN | Balanceamento: tomek | PCA: Não | Parametros: grid,0.5979381443298969,23.140061616897583,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
-DecisionTree | Balanceamento: tomek | PCA: Não | Parametros: grid,0.6003638568829593,7.382800817489624,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
-NeuralNetwork | Balanceamento: tomek | PCA: Não | Parametros: grid,0.6476652516676774,339.4783980846405,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50,)}"
-NaiveBayes | Balanceamento: tomek | PCA: Não | Parametros: grid,0.3389933292904791,0.06789088249206543,N/A
-LogisticRegression | Balanceamento: smote | PCA: Sim | Parametros: grid,0.632504548211037,7.756306171417236,"{'C': 10.0, 'max_iter': 500, 'solver': 'liblinear'}"
-RandomForest | Balanceamento: smote | PCA: Sim | Parametros: grid,0.6434202546998181,175.87903881072998,"{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 300}"
-SVM | Balanceamento: smote | PCA: Sim | Parametros: grid,0.6270466949666464,54.9344437122345,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear'}"
-KNN | Balanceamento: smote | PCA: Sim | Parametros: grid,0.6082474226804123,1.4232795238494873,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
-DecisionTree | Balanceamento: smote | PCA: Sim | Parametros: grid,0.5936931473620376,5.058750867843628,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
-NeuralNetwork | Balanceamento: smote | PCA: Sim | Parametros: grid,0.6494845360824743,58.03593897819519,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (100,)}"
-NaiveBayes | Balanceamento: smote | PCA: Sim | Parametros: grid,0.5585203153426319,0.010524988174438477,N/A
-LogisticRegression | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.6294724075197089,7.46303653717041,"{'C': 10.0, 'max_iter': 500, 'solver': 'liblinear'}"
-RandomForest | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.6403881140084899,176.7124752998352,"{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}"
-SVM | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.624620982413584,57.430965423583984,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear'}"
-KNN | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.6124924196482717,1.4543673992156982,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
-DecisionTree | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.5870224378411159,5.356057643890381,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
-NeuralNetwork | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.6428138265615525,59.466620206832886,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50,)}"
-NaiveBayes | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.5421467556094602,0.014627695083618164,N/A
-LogisticRegression | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.6531231049120679,7.936377763748169,N/A
-RandomForest | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.613705275924803,4.049389600753784,N/A
-SVM | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.6422073984232869,16.097289562225342,N/A
-KNN | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.5918738629472408,0.005597829818725586,N/A
-DecisionTree | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.5845967252880534,0.5763890743255615,N/A
-NeuralNetwork | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.6361431170406306,17.677690029144287,N/A
-NaiveBayes | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.3389933292904791,0.07366728782653809,N/A
-LogisticRegression | Balanceamento: smote | PCA: Não | Parametros: best,0.6531231049120679,7.686333894729614,N/A
-RandomForest | Balanceamento: smote | PCA: Não | Parametros: best,0.6088538508186779,4.059262990951538,N/A
-SVM | Balanceamento: smote | PCA: Não | Parametros: best,0.6422073984232869,16.192997455596924,N/A
-KNN | Balanceamento: smote | PCA: Não | Parametros: best,0.5918738629472408,0.006251096725463867,N/A
-DecisionTree | Balanceamento: smote | PCA: Não | Parametros: best,0.5845967252880534,0.5703632831573486,N/A
-NeuralNetwork | Balanceamento: smote | PCA: Não | Parametros: best,0.6385688295936931,18.05287504196167,N/A
-NaiveBayes | Balanceamento: smote | PCA: Não | Parametros: best,0.3389933292904791,0.07034730911254883,N/A
-LogisticRegression | Balanceamento: tomek | PCA: Não | Parametros: best,0.6531231049120679,7.94781231880188,N/A
-RandomForest | Balanceamento: tomek | PCA: Não | Parametros: best,0.6088538508186779,4.026026487350464,N/A
-SVM | Balanceamento: tomek | PCA: Não | Parametros: best,0.6422073984232869,16.29301905632019,N/A
-KNN | Balanceamento: tomek | PCA: Não | Parametros: best,0.5918738629472408,0.00560760498046875,N/A
-DecisionTree | Balanceamento: tomek | PCA: Não | Parametros: best,0.5803517283201941,0.5964601039886475,N/A
-NeuralNetwork | Balanceamento: tomek | PCA: Não | Parametros: best,0.6197695573074591,17.69410514831543,N/A
-NaiveBayes | Balanceamento: tomek | PCA: Não | Parametros: best,0.3389933292904791,0.07255315780639648,N/A
-LogisticRegression | Balanceamento: smote | PCA: Sim | Parametros: best,0.6252274105518496,4.644774675369263,N/A
-RandomForest | Balanceamento: smote | PCA: Sim | Parametros: best,0.6282595512431777,6.032947540283203,N/A
-SVM | Balanceamento: smote | PCA: Sim | Parametros: best,0.6300788356579745,3.1863327026367188,N/A
-KNN | Balanceamento: smote | PCA: Sim | Parametros: best,0.5858095815645846,0.006088972091674805,N/A
-DecisionTree | Balanceamento: smote | PCA: Sim | Parametros: best,0.5500303214069133,0.9502692222595215,N/A
-NeuralNetwork | Balanceamento: smote | PCA: Sim | Parametros: best,0.6258338386901152,4.099322319030762,N/A
-NaiveBayes | Balanceamento: smote | PCA: Sim | Parametros: best,0.5542753183747726,0.009803295135498047,N/A
-LogisticRegression | Balanceamento: tomek | PCA: Sim | Parametros: best,0.6252274105518496,5.178861856460571,N/A
-RandomForest | Balanceamento: tomek | PCA: Sim | Parametros: best,0.6240145542753184,6.076056241989136,N/A
-SVM | Balanceamento: tomek | PCA: Sim | Parametros: best,0.6288659793814433,3.201035499572754,N/A
-KNN | Balanceamento: tomek | PCA: Sim | Parametros: best,0.5912674348089751,0.004941225051879883,N/A
-DecisionTree | Balanceamento: tomek | PCA: Sim | Parametros: best,0.5439660400242571,0.963059663772583,N/A
-NeuralNetwork | Balanceamento: tomek | PCA: Sim | Parametros: best,0.6331109763493026,4.449766397476196,N/A
-NaiveBayes | Balanceamento: tomek | PCA: Sim | Parametros: best,0.5548817465130382,0.010974645614624023,N/A
-LogisticRegression | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.6513038204972711,9.582273006439209,N/A
-RandomForest | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.5294117647058824,2.674647331237793,N/A
-SVM | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.6428138265615525,14.503764867782593,N/A
-KNN | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.5979381443298969,0.005971193313598633,N/A
-DecisionTree | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.5991510006064281,0.19070863723754883,N/A
-NeuralNetwork | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.6500909642207399,21.012808322906494,N/A
-NaiveBayes | Balanceamento: Nenhum | PCA: Não | Parametros: best,0.3389933292904791,0.06174421310424805,N/A
-LogisticRegression | Balanceamento: smote | PCA: Não | Parametros: best,0.6513038204972711,9.61529278755188,N/A
-RandomForest | Balanceamento: smote | PCA: Não | Parametros: best,0.5257731958762887,2.6134958267211914,N/A
-SVM | Balanceamento: smote | PCA: Não | Parametros: best,0.6428138265615525,14.360680341720581,N/A
-KNN | Balanceamento: smote | PCA: Não | Parametros: best,0.5979381443298969,0.005583763122558594,N/A
-DecisionTree | Balanceamento: smote | PCA: Não | Parametros: best,0.5991510006064281,0.19838714599609375,N/A
-NeuralNetwork | Balanceamento: smote | PCA: Não | Parametros: best,0.6470588235294118,20.942726850509644,N/A
-NaiveBayes | Balanceamento: smote | PCA: Não | Parametros: best,0.3389933292904791,0.0606389045715332,N/A
-LogisticRegression | Balanceamento: tomek | PCA: Não | Parametros: best,0.6513038204972711,9.626359224319458,N/A
-RandomForest | Balanceamento: tomek | PCA: Não | Parametros: best,0.5245603395997575,2.624722719192505,N/A
-SVM | Balanceamento: tomek | PCA: Não | Parametros: best,0.6428138265615525,14.410264730453491,N/A
-KNN | Balanceamento: tomek | PCA: Não | Parametros: best,0.5979381443298969,0.0062694549560546875,N/A
-DecisionTree | Balanceamento: tomek | PCA: Não | Parametros: best,0.5997574287446937,0.20419549942016602,N/A
-NeuralNetwork | Balanceamento: tomek | PCA: Não | Parametros: best,0.6464523953911462,20.94809103012085,N/A
-NaiveBayes | Balanceamento: tomek | PCA: Não | Parametros: best,0.3389933292904791,0.06846904754638672,N/A
-LogisticRegression | Balanceamento: smote | PCA: Sim | Parametros: best,0.624620982413584,5.106076955795288,N/A
-RandomForest | Balanceamento: smote | PCA: Sim | Parametros: best,0.6397816858702243,13.245941162109375,N/A
-SVM | Balanceamento: smote | PCA: Sim | Parametros: best,0.6312916919345057,2.738595485687256,N/A
-KNN | Balanceamento: smote | PCA: Sim | Parametros: best,0.6173438447543966,0.005347251892089844,N/A
-DecisionTree | Balanceamento: smote | PCA: Sim | Parametros: best,0.5906610066707095,0.6514208316802979,N/A
-NeuralNetwork | Balanceamento: smote | PCA: Sim | Parametros: best,0.6409945421467557,5.9671080112457275,N/A
-NaiveBayes | Balanceamento: smote | PCA: Sim | Parametros: best,0.5500303214069133,0.009565591812133789,N/A
-LogisticRegression | Balanceamento: tomek | PCA: Sim | Parametros: best,0.6264402668283808,4.901772737503052,N/A
-RandomForest | Balanceamento: tomek | PCA: Sim | Parametros: best,0.6403881140084899,13.179198026657104,N/A
-SVM | Balanceamento: tomek | PCA: Sim | Parametros: best,0.6312916919345057,2.8111116886138916,N/A
-KNN | Balanceamento: tomek | PCA: Sim | Parametros: best,0.613705275924803,0.006008148193359375,N/A
-DecisionTree | Balanceamento: tomek | PCA: Sim | Parametros: best,0.5718617343844754,0.653975248336792,N/A
-NeuralNetwork | Balanceamento: tomek | PCA: Sim | Parametros: best,0.6409945421467557,4.910540342330933,N/A
-NaiveBayes | Balanceamento: tomek | PCA: Sim | Parametros: best,0.5573074590661007,0.013078689575195312,N/A
+LogisticRegression | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.6531231049120679,0.8920385837554932,N/A
+RandomForest | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.6015767131594906,3.6147782802581787,N/A
+SVM | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.6422073984232869,17.994667053222656,N/A
+KNN | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.593086719223772,0.007396697998046875,N/A
+DecisionTree | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.5845967252880534,0.4291398525238037,N/A
+NeuralNetwork | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.6282595512431777,19.674347400665283,N/A
+NaiveBayes | Balanceamento: Nenhum | PCA: Não | Parametros: default,0.3389933292904791,0.049501657485961914,N/A
+LogisticRegression | Balanceamento: smote | PCA: Não | Parametros: default,0.6531231049120679,0.9529731273651123,N/A
+RandomForest | Balanceamento: smote | PCA: Não | Parametros: default,0.6118859915100061,3.748323678970337,N/A
+SVM | Balanceamento: smote | PCA: Não | Parametros: default,0.6422073984232869,17.08361792564392,N/A
+KNN | Balanceamento: smote | PCA: Não | Parametros: default,0.593086719223772,0.007126808166503906,N/A
+DecisionTree | Balanceamento: smote | PCA: Não | Parametros: default,0.5845967252880534,0.4751441478729248,N/A
+NeuralNetwork | Balanceamento: smote | PCA: Não | Parametros: default,0.6270466949666464,17.942343711853027,N/A
+NaiveBayes | Balanceamento: smote | PCA: Não | Parametros: default,0.3389933292904791,0.06109309196472168,N/A
+LogisticRegression | Balanceamento: tomek | PCA: Não | Parametros: default,0.6531231049120679,0.9697506427764893,N/A
+RandomForest | Balanceamento: tomek | PCA: Não | Parametros: default,0.6076409945421467,4.086703777313232,N/A
+SVM | Balanceamento: tomek | PCA: Não | Parametros: default,0.6422073984232869,17.613332748413086,N/A
+KNN | Balanceamento: tomek | PCA: Não | Parametros: default,0.593086719223772,0.007050275802612305,N/A
+DecisionTree | Balanceamento: tomek | PCA: Não | Parametros: default,0.5845967252880534,0.5177621841430664,N/A
+NeuralNetwork | Balanceamento: tomek | PCA: Não | Parametros: default,0.6173438447543966,19.680904626846313,N/A
+NaiveBayes | Balanceamento: tomek | PCA: Não | Parametros: default,0.3389933292904791,0.0694587230682373,N/A
+LogisticRegression | Balanceamento: smote | PCA: Sim | Parametros: default,0.6294724075197089,0.1431870460510254,N/A
+RandomForest | Balanceamento: smote | PCA: Sim | Parametros: default,0.6228016979987872,7.371758699417114,N/A
+SVM | Balanceamento: smote | PCA: Sim | Parametros: default,0.6288659793814433,1.8287920951843262,N/A
+KNN | Balanceamento: smote | PCA: Sim | Parametros: default,0.5882352941176471,0.005315065383911133,N/A
+DecisionTree | Balanceamento: smote | PCA: Sim | Parametros: default,0.5366889023650697,1.0751738548278809,N/A
+NeuralNetwork | Balanceamento: smote | PCA: Sim | Parametros: default,0.6264402668283808,4.789833068847656,N/A
+NaiveBayes | Balanceamento: smote | PCA: Sim | Parametros: default,0.5573074590661007,0.009990215301513672,N/A
+LogisticRegression | Balanceamento: tomek | PCA: Sim | Parametros: default,0.6258338386901152,0.1133425235748291,N/A
+RandomForest | Balanceamento: tomek | PCA: Sim | Parametros: default,0.6179502728926622,7.150367259979248,N/A
+SVM | Balanceamento: tomek | PCA: Sim | Parametros: default,0.6282595512431777,1.8239185810089111,N/A
+KNN | Balanceamento: tomek | PCA: Sim | Parametros: default,0.5906610066707095,0.005001544952392578,N/A
+DecisionTree | Balanceamento: tomek | PCA: Sim | Parametros: default,0.5463917525773195,1.076695442199707,N/A
+NeuralNetwork | Balanceamento: tomek | PCA: Sim | Parametros: default,0.6282595512431777,4.675246953964233,N/A
+NaiveBayes | Balanceamento: tomek | PCA: Sim | Parametros: default,0.5415403274711946,0.009497880935668945,N/A
+LogisticRegression | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.6513038204972711,8.355849027633667,"{'C': 1.0, 'max_iter': 500, 'solver': 'lbfgs'}"
+RandomForest | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.6240145542753184,23.34382128715515,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}"
+SVM | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.6428138265615525,128.66878628730774,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}"
+KNN | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.5967252880533657,6.587834596633911,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
+DecisionTree | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.5997574287446937,1.151197910308838,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
+NeuralNetwork | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.6476652516676774,41.70439910888672,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (50,)}"
+NaiveBayes | Balanceamento: Nenhum | PCA: Não | Parametros: grid,0.3389933292904791,0.05519413948059082,N/A
+LogisticRegression | Balanceamento: smote | PCA: Não | Parametros: grid,0.6513038204972711,5.640312910079956,"{'C': 1.0, 'max_iter': 500, 'solver': 'lbfgs'}"
+RandomForest | Balanceamento: smote | PCA: Não | Parametros: grid,0.624620982413584,24.801024913787842,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 300}"
+SVM | Balanceamento: smote | PCA: Não | Parametros: grid,0.6428138265615525,147.0769054889679,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}"
+KNN | Balanceamento: smote | PCA: Não | Parametros: grid,0.5967252880533657,6.50887131690979,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
+DecisionTree | Balanceamento: smote | PCA: Não | Parametros: grid,0.5991510006064281,1.0393483638763428,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
+NeuralNetwork | Balanceamento: smote | PCA: Não | Parametros: grid,0.6422073984232869,55.33170557022095,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100,)}"
+NaiveBayes | Balanceamento: smote | PCA: Não | Parametros: grid,0.3389933292904791,0.05170392990112305,N/A
+LogisticRegression | Balanceamento: tomek | PCA: Não | Parametros: grid,0.6513038204972711,7.420146942138672,"{'C': 1.0, 'max_iter': 500, 'solver': 'lbfgs'}"
+RandomForest | Balanceamento: tomek | PCA: Não | Parametros: grid,0.6234081261370528,18.47337317466736,"{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}"
+SVM | Balanceamento: tomek | PCA: Não | Parametros: grid,0.6428138265615525,171.57553625106812,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}"
+KNN | Balanceamento: tomek | PCA: Não | Parametros: grid,0.5967252880533657,6.606347322463989,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
+DecisionTree | Balanceamento: tomek | PCA: Não | Parametros: grid,0.5997574287446937,0.9878957271575928,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
+NeuralNetwork | Balanceamento: tomek | PCA: Não | Parametros: grid,0.648271679805943,51.41010022163391,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (50,)}"
+NaiveBayes | Balanceamento: tomek | PCA: Não | Parametros: grid,0.3389933292904791,0.05075192451477051,N/A
+LogisticRegression | Balanceamento: smote | PCA: Sim | Parametros: grid,0.6270466949666464,1.7558033466339111,"{'C': 10.0, 'max_iter': 500, 'solver': 'liblinear'}"
+RandomForest | Balanceamento: smote | PCA: Sim | Parametros: grid,0.6318981200727714,31.24530601501465,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}"
+SVM | Balanceamento: smote | PCA: Sim | Parametros: grid,0.6270466949666464,5.9121716022491455,"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}"
+KNN | Balanceamento: smote | PCA: Sim | Parametros: grid,0.6143117040630686,0.745147705078125,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
+DecisionTree | Balanceamento: smote | PCA: Sim | Parametros: grid,0.5882352941176471,1.897719144821167,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}"
+NeuralNetwork | Balanceamento: smote | PCA: Sim | Parametros: grid,0.6506973923590055,9.898203611373901,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50,)}"
+NaiveBayes | Balanceamento: smote | PCA: Sim | Parametros: grid,0.5415403274711946,0.009592294692993164,N/A
+LogisticRegression | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.624620982413584,1.616281509399414,"{'C': 10.0, 'max_iter': 500, 'solver': 'liblinear'}"
+RandomForest | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.6379624014554275,36.81731104850769,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 300}"
+SVM | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.6264402668283808,7.8651978969573975,"{'C': 10, 'gamma': 'scale', 'kernel': 'linear'}"
+KNN | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.6106731352334749,0.8084418773651123,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}"
+DecisionTree | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.5888417222559127,1.9546434879302979,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}"
+NeuralNetwork | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.6361431170406306,9.832358837127686,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50,)}"
+NaiveBayes | Balanceamento: tomek | PCA: Sim | Parametros: grid,0.5427531837477259,0.00970768928527832,N/A
